@@ -28,8 +28,8 @@ Checks if a component has listed a dependency that then isn’t used inside the 
 Checks if a component has listed a dependency that is in a *different module* than itself:
 
 	myApp.user: Access (dependencies: 5)
-	  external module: Subscription (weld.subscription)
-	  external module: projectManager (weld.project.view)
+	  external module: Subscription (myApp.subscription)
+	  external module: projectManager (myApp.project.view)
 
 ### 3. Module file locations
 
