@@ -1,0 +1,4 @@
+node_modules/
+
+report*.txt
+local_settings.txt
