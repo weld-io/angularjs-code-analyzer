@@ -2,7 +2,9 @@
 
 Static analysis of AngularJS modules and dependencies.
 
-Made by the **Weld** team ([www.weld.io](https://www.weld.io)).
+Made by the team at **Weld** ([www.weld.io](https://www.weld.io?utm_source=github-angularjs-code-analyzer)), the code-free app and web creation tool:
+
+[![Weld](https://s3-eu-west-1.amazonaws.com/weld-social-and-blog/gif/weld_explained.gif)](https://www.weld.io?utm_source=github-angularjs-code-analyzer)
 
 ## Usage
 
