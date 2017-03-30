@@ -53,7 +53,7 @@ var reportExternalModules = function (compList) {
 			let depModule = _.get(componentList, dep + '.module');
 			if (depModule && depModule !== componentInfo.module) {
 				hasOutsideDependency = true;
-				depList += `  external module: ${dep} (${depModule})\n`;
+				depList += `  external module: ${dep} (${depModule}) from ${componentInfo.module}\n`;
 			}
 		});
 		if (hasOutsideDependency) {
